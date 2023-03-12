@@ -1,0 +1,21 @@
+ downoadl python.orgt
+
+pip install django
+pip install djangorestframework
+
+django-admin startproject encuproy
+cd encuproy
+python manage.py startapp encuapp
+python manage.py runserver
+
+
+
+ pip install django-bootstrap4
+ pip install crispy-bootstrap4
+ pip install Pillow
+ pip install mysqlclient
+ pip install django-crispy-forms
+pip install mysql-connector
+
+
+
