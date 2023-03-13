@@ -1,19 +1,31 @@
-# Django-Python-CRUD-Operation-Book-Example
-This is a simple Django project to demonstrate Django CRUD functionality using Python and MySql
+# Django-Python-CRUD
+Modulo de encuestas usando DJango Python and MySql
 
 # Required Install Packages
-
-For Windows : pip install mysql-connector
+For Windows : 
+pip install mysql-connector
 pip install django-crispy-forms
+pip install django-bootstrap4
+pip install crispy-bootstrap4
+pip install Pillow
+pip install mysqlclient
+pip install django-crispy-forms
+pip install mysql-connector
 
-For Ubuntu /Linux : sudo apt-get install python3-pymysql
 
-pip install mysqlclient-1.3.13-cp37-cp37m-win32.whl
-Download from this link : https://bit.ly/2FNn3e5
+# misc commands
+pip install django
+pip install djangorestframework
 
-# Recommended
-Make sure that all required packages should be installed in your virtual environment.
+django-admin startproject encuestas1
+cd encuestas1
+python manage.py startapp encuapp
+python manage.py runserver
 
-# Credit & Reference :
-Mr.Vitor Freitas
-https://simpleisbetterthancomplex.com/
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+
+
