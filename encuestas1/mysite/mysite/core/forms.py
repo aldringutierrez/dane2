@@ -29,7 +29,7 @@ class BookForm(forms.ModelForm):
 		'hx-trigger': 'change'
 	})
     )
-	numacompanantes = forms.CharField(label='Numero de Acompañantes', max_length=30)
+	numacompanantes = forms.IntegerField()
 	organizacion = forms.ChoiceField(
 	choices=Book.Organizacion.choices,
 	widget=forms.RadioSelect(attrs={
@@ -43,6 +43,5 @@ class BookForm(forms.ModelForm):
 	})
     )
 	edad = forms.IntegerField()
-	acompanantes = forms.IntegerField()
-    
+	
 	
